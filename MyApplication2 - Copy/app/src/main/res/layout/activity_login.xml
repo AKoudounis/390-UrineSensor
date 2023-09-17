@@ -1,0 +1,22 @@
+<!-- res/layout/activity_second.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_light"
+    android:padding="16dp">
+
+    <!-- TextView to display data -->
+    <TextView
+        android:id="@+id/DataTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="@string/data_from_first_activity"
+        android:paddingBottom="16dp"/>
+
+    <!-- You can add more views here for displaying additional data -->
+
+</LinearLayout>
